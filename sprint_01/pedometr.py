@@ -82,7 +82,10 @@ def get_achievement(dist):
 
 # Место для функции show_message.
 def show_message(time, steps, dist, cal, ach):
-    print(f'\nВремя: { time }.\nКоличество шагов за сегодня: { steps }.\nДистанция составила {dist:.2f} км.\nВы сожгли {cal:.2f} ккал.\n{ ach }\n')
+    print(f'\nВремя: { time }.'
+    f'\nКоличество шагов за сегодня: { steps }.'
+    f'\nДистанция составила {dist:.2f} км.'
+    f'\nВы сожгли {cal:.2f} ккал.\n{ ach }\n')
 
 
 def accept_package(data):
